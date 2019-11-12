@@ -1,5 +1,5 @@
 def player_guess
-
+ rand(6) + 1
 end
 
 
