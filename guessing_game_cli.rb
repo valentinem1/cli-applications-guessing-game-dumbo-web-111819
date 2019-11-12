@@ -15,9 +15,10 @@ def run_guessing_game
   player_guess
   user_prompt
   get_user_input
-if player_guess == get_user_input
-  puts "You guessed the correct number!"
-elsif
+    if player_guess == get_user_input
+      puts "You guessed the correct number!"
+    elsif player_guess !== get_user_input
+    
   
   end
 end
