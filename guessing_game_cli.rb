@@ -15,5 +15,8 @@ def run_guessing_game
   player_guess
   user_prompt
   get_user_input
-player_guess == get_user_input
+  if player_guess == get_user_input
+  puts 
+  
+  end
 end
